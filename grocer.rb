@@ -54,7 +54,9 @@ def checkout(cart, coupons)
   final_coupon = apply_coupons(final_cart, coupons)
   final_clearence = apply_clearance(final_coupon)
   
-  
+  final_clearence.each{
+    
+  }
   
 end
 
