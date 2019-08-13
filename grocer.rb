@@ -45,7 +45,7 @@ def apply_clearance(cart)
       info[:price] = (info[:price] * .8).round(2)
     end
   }
-  return cart
+  cart
   
 end
 
