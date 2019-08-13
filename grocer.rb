@@ -43,7 +43,10 @@ def apply_clearance(cart)
     |name, info|
     if info[:clearance] == true
       info[:price] = (info[:price] * .8).round(2)
+    end
   }
+  return cart
+  
 end
 
 def checkout(cart, coupons)
