@@ -55,7 +55,8 @@ def checkout(cart, coupons)
   final_clearence = apply_clearance(final_coupon)
   
   final_clearence.each{
-    
+    |name, info|
+    total += info[]
   }
   
 end
